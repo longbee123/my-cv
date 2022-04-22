@@ -55,6 +55,7 @@ function App() {
                     <li style={{ color: '#1890ff' }}>HTML/CSS/JavaScript</li>
                     <li style={{ color: '#1890ff' }}>ReactJS</li>
                     <li style={{ color: '#1890ff' }}>Git</li>
+                    <li style={{ color: '#1890ff' }}>MySQL, PostgreSQL, Redis</li>
                   </ul>
                 </p>
               </div>
@@ -74,7 +75,7 @@ function App() {
                 <Timeline.Item color='green'>
                   <p className='text'>2021 - Hiện tại VNTravel Group</p>
                   <p className='text'>Tham gia các dự án Marketing Tool và Grow User</p>
-                  <p className='text'>Xây dựng BE: Sử dụng công nghệ Java 8, Spring Boot, MySQL</p>
+                  <p className='text'>Xây dựng BE: Sử dụng công nghệ Java 8, Spring Boot, MySQL, Redis</p>
                   <p className='text'>Xây dựng FE Admin Portal: Sử dụng công nghệ ReactJS, HTML/CSS/JS</p>
                   <p className='text'>Quản lý source code: Sử dụng Bitbucket + SourceTree</p>
                   <p className='text'>Quản lý task: Sử dụng Jira</p>
