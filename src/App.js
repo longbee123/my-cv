@@ -69,7 +69,7 @@ function App() {
                 <Timeline.Item color='green'>
                   <p className='text'>2020 - 2021 Smart OSC</p>
                   <p className='text'>Thực tập dự án website thương mai điện tử</p>
-                  <p className='text'>Xây dựng BE: Sử dụng công nghệ Java 8, Spring Boot, Thymleaf, MySQL</p>
+                  <p className='text'>Xây dựng BE: Sử dụng công nghệ Java 8, Spring Boot, Thymleaf, MySQL/PostgreSQL</p>
                 </Timeline.Item>
                 <Timeline.Item color='green'>
                   <p className='text'>2021 - Hiện tại VNTravel Group</p>
