@@ -1,7 +1,7 @@
 
 import './App.css';
 import { Layout, Avatar, Descriptions, Timeline } from 'antd';
-import { UserOutlined, EditTwoTone, ReadOutlined, LinkedinFilled, MailOutlined, PhoneOutlined } from '@ant-design/icons';
+import { UserOutlined, EditTwoTone, ReadOutlined, LinkedinFilled, MailOutlined, PhoneOutlined, LikeOutlined } from '@ant-design/icons';
 
 const { Header, Footer, Sider, Content } = Layout;
 
@@ -42,8 +42,8 @@ function App() {
             </div>
             <div className='box'>
               <div style={{ textAlign: 'left' }}>
-                <ReadOutlined />
-                <span style={{ marginLeft: '10px', color: '#ffc53d', textTransform: 'uppercase', fontWeight: 'bold' }}>Kĩ Năng</span>
+                <ReadOutlined style={{fontSize: '25px'}}/>
+                <span style={{ marginLeft: '10px', color: '#ffc53d', textTransform: 'uppercase', fontWeight: 'bold', fontSize: '30px' }}>Kĩ Năng</span>
               </div>
               <div style={{ textAlign: 'left', marginTop: '20px' }}>
                 <p className='text'>
@@ -63,7 +63,8 @@ function App() {
           </div>
           <div className='box' style={{ backgroundColor: 'white', margin: '0px 10px', padding: '20px 50px' }}>
             <div style={{ textAlign: 'left' }}>
-              <h1>Kinh Nghiệm Làm Việc</h1>
+            <LikeOutlined style={{fontSize: '25px'}}/>
+            <span style={{ marginLeft: '10px', color: '#ffc53d', textTransform: 'uppercase', fontWeight: 'bold', fontSize: '30px' }}>Kinh Nghiệm Làm Việc</span>
             </div>
             <div style={{ textAlign: 'left', margin: '40px' }}>
               <Timeline>
