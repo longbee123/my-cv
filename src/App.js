@@ -12,12 +12,12 @@ function App() {
         <Header style={{ backgroundColor: '#bae7ff', height: '100%' }}>
           <Avatar style={{ width: '300px', height: '300px', margin: '15px 0px' }} icon={<UserOutlined />} src={'https://storage.googleapis.com/public-tripi/tripi-feed/img/458499zoj/avt.jpg'} />
         </Header>
-        <Content style={{ padding: '50px', backgroundColor: '#e6f7ff' }}>
+        <Content className='content'>
           <div className="flex-container">
             <div className='box'>
               <div style={{ textAlign: 'left' }}>
                 <EditTwoTone />
-                <span style={{ marginLeft: '10px', color: '#ffc53d', textTransform: 'uppercase', fontWeight: 'bold' }}>Giới Thiệu Bản Thân</span>
+                <span className='title'>Giới Thiệu Bản Thân</span>
               </div>
               <div style={{ textAlign: 'left' }}>
                 <p className='text'>
@@ -43,7 +43,7 @@ function App() {
             <div className='box'>
               <div style={{ textAlign: 'left' }}>
                 <ReadOutlined style={{fontSize: '25px'}}/>
-                <span style={{ marginLeft: '10px', color: '#ffc53d', textTransform: 'uppercase', fontWeight: 'bold', fontSize: '30px' }}>Kĩ Năng</span>
+                <span className='title'>Kĩ Năng</span>
               </div>
               <div style={{ textAlign: 'left', marginTop: '20px' }}>
                 <p className='text'>
@@ -61,12 +61,12 @@ function App() {
               </div>
             </div>
           </div>
-          <div className='box' style={{ backgroundColor: 'white', margin: '0px 10px', padding: '20px 50px' }}>
+          <div className='box box-skill' >
             <div style={{ textAlign: 'left' }}>
             <LikeOutlined style={{fontSize: '25px'}}/>
-            <span style={{ marginLeft: '10px', color: '#ffc53d', textTransform: 'uppercase', fontWeight: 'bold', fontSize: '30px' }}>Kinh Nghiệm Làm Việc</span>
+            <span className='title'>Kinh Nghiệm Làm Việc</span>
             </div>
-            <div style={{ textAlign: 'left', margin: '40px' }}>
+            <div className='timeline'>
               <Timeline>
                 <Timeline.Item color='green'>
                   <p className='text'>2020 - 2021 Smart OSC</p>

@@ -61,8 +61,57 @@
   font-size: 20px;
 }
 
+.title {
+  margin-left: 10px; 
+  color: #ffc53d; 
+  text-transform: uppercase; 
+  font-weight: bold; 
+  font-size: 30px;
+}
+
 .box {
   box-shadow: 5px 5px 5px #bfbfbf;
+}
+
+.box-skill {
+  background-color: white; 
+  margin: 0px 10px; 
+  padding: 20px 50px;
+}
+
+.content {
+  padding: 50px; 
+  background-color: #e6f7ff;
+}
+
+.timeline {
+  text-align: left; 
+  margin: 40px;
+}
+
+@media screen and (max-width: 480px) {
+  .flex-container {
+    display: contents;
+    background-color: #e6f7ff;
+  }
+  .title {
+    font-size: 19px
+  }
+  .text {
+    font-size: 14px
+  }
+  .flex-container > div {
+    width: auto
+  }
+  .content {
+    padding: 0px; 
+  }
+  .box-skill {
+    padding: 20px 20px;
+  }
+  .timeline {
+    margin: 20px;
+  }
 }
 
 @import '~antd/dist/antd.css';
